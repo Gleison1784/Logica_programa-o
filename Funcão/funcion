@@ -6,3 +6,11 @@ function dobrar (num) {
 var valor = 10
 console.log(dobrar(valor));
 console.log(valor) // 10
+                               
+
+function saudacao(nome = "Visitante") {
+    console.log(`olá, ${nome}!`);
+}
+
+saudacao(); // olá, visitante!
+saudacao("Gleison"); // Olá, Gleison!
