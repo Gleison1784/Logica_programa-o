@@ -14,3 +14,13 @@ function saudacao(nome = "Visitante") {
 
 saudacao(); // olá, visitante!
 saudacao("Gleison"); // Olá, Gleison!
+
+
+function adicionarItem(lista) {
+    lista.push("novo item");
+}
+
+
+let itens = ["Item 1", "Item 2"];
+adicionarItem(itens);
+console.log(itens); // ["Item 2", "novo item"]
